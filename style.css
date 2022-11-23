@@ -15,6 +15,23 @@ strong {
   color: hsl(160, 100%, 30%);
 }
 
+header {
+  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
+}
+
+.title {
+  color: hsl(0, 0%, 30%);
+
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.intro-chunk > p {
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(0, 0%, 40%);
+}
+
 section.max-width-wrapper {
   background-color: hsl(0, 0%, 40%);
 
