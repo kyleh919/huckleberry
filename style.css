@@ -24,6 +24,13 @@ header > .max-width-wrapper {
   padding-bottom: 64px;
 }
 
+.intro-chunk,
+.card {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 24px;
+}
+
 .title {
   color: hsl(0, 0%, 30%);
 
@@ -51,10 +58,6 @@ main > .max-width-wrapper {
 
   font-size: 1.25rem;
   font-weight: 500;
-
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 24px;
 }
 
 .indented-heading {
