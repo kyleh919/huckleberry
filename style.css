@@ -24,6 +24,15 @@ header > .max-width-wrapper {
   padding-bottom: 64px;
 }
 
+h1 {
+  margin-bottom: 48px;
+}
+
+.intro-chunk > p {
+  max-width: 415px;
+  margin-bottom: 16px;
+}
+
 .intro-chunk,
 .card {
   margin: 0 auto;
@@ -32,7 +41,7 @@ header > .max-width-wrapper {
 }
 
 .title {
-  color: hsl(0, 0%, 30%);
+  hsla(0, 0%, 0%, 1)
 
   font-size: 2rem;
   font-weight: 800;
@@ -41,7 +50,7 @@ header > .max-width-wrapper {
 .intro-chunk > p {
   font-size: 20px;
   font-weight: 400;
-  color: hsl(0, 0%, 40%);
+  hsla(0, 0%, 0%, 1);
 }
 
 main > .max-width-wrapper {
@@ -54,7 +63,7 @@ main > .max-width-wrapper {
 .card {
   background-color: hsla(0, 0%, 100%);
   border-bottom: 8px solid hsla(0, 0%, 60%, 1);
-  color: hsl(0, 0%, 40%);
+ hsla(0, 0%, 0%, 1);
 
   font-size: 1.25rem;
   font-weight: 500;
@@ -63,7 +72,7 @@ main > .max-width-wrapper {
 .indented-heading {
   background-color: hsla(45, 100%, 50%);
   border-bottom: 8px solid hsla(45, 100%, 40%);
-  color: hsl(0, 0%, 30%);
+  hsla(0, 0%, 0%, 1);
 
   font-size: 1.5rem;
   font-weight: 800;
