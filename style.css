@@ -18,8 +18,8 @@ strong {
 section.max-width-wrapper {
   background-color: hsl(0, 0%, 40%);
 
-  /* padding: 72px 240px 66px; */
-  /* padding: 72px 0px 66px; */
+  padding-top: 72px;
+  padding-bottom: 66px;
 }
 
 .card {
@@ -30,6 +30,8 @@ section.max-width-wrapper {
   font-size: 1.25rem;
   font-weight: 500;
 
+  margin: 0 auto;
+  max-width: 800px;
   padding: 24px;
 }
 
