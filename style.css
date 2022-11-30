@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,75 +10,89 @@ body {
 }
 
 /* Add styles here! */
-
 strong {
   color: hsl(160, 100%, 30%);
+}
+
+h1,
+h2,
+p {
+  color: hsla(0, 0%, 0%, 1);
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p:not(:last-child) {
+  /* using `rem` to account for zooming a11y feature to scale bottom margin with font */
+  margin-bottom: 1rem;
 }
 
 header {
   border-bottom: 8px solid hsla(0, 0%, 60%, 1);
 }
 
+.max-width-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 header > .max-width-wrapper {
-  padding-top: 96px;
-  padding-bottom: 64px;
-}
-
-h1 {
-  margin-bottom: 48px;
-}
-
-.intro-chunk > p {
-  max-width: 415px;
-  margin-bottom: 16px;
+  /* padding-top: 72px;
+  padding-bottom: 40px; */
 }
 
 .intro-chunk,
 .card {
-  margin: 0 auto;
-  max-width: 800px;
   padding: 24px;
 }
 
-.title {
-  hsla(0, 0%, 0%, 1)
-
-  font-size: 2rem;
-  font-weight: 800;
+.intro-chunk {
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 64px;
 }
 
-.intro-chunk > p {
-  font-size: 20px;
-  font-weight: 400;
-  hsla(0, 0%, 0%, 1);
+main {
+  background-color: hsla(0, 0%, 40%, 1);
 }
 
 main > .max-width-wrapper {
-  background-color: hsl(0, 0%, 40%);
-
-  padding-top: 72px;
+  padding-top: 64px;
   padding-bottom: 66px;
 }
 
-.card {
-  background-color: hsla(0, 0%, 100%);
-  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
- hsla(0, 0%, 0%, 1);
+.title {
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
 
-  font-size: 1.25rem;
-  font-weight: 500;
+.card {
+  background-color: hsla(0, 0%, 100%, 1);
+  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
+
+  /* padding-top: 64px;
+  padding-bottom: 66px; */
 }
 
 .indented-heading {
-  background-color: hsla(45, 100%, 50%);
-  border-bottom: 8px solid hsla(45, 100%, 40%);
-  hsla(0, 0%, 0%, 1);
-
-  font-size: 1.5rem;
-  font-weight: 800;
+  background-color: hsla(45, 100%, 50%, 1);
+  border-bottom: 8px solid hsla(45, 100%, 40%, 1);
 
   margin-top: -16px;
+  /* using `rem` to account for zooming a11y feature to scale bottom margin with font */
+  margin-bottom: 1rem;
   margin-left: -32px;
-  padding: 16px 32px 15px;
+  padding: 16px 32px;
   width: fit-content;
 }
